@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+}
+.place{
+    margin: auto;
+    width: 80%;
+    background-color: #1f2937;
+    padding: 20px 0;
+    color: #F9FAF8;
+}
+nav{
+    background-color: #1f2937;
+    padding: 20px 0;
+    color: #F9FAF8;
+    margin-top: -30px;
+}
+header {
+	font-size: 30px;
+}
+ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+     margin-top: -35px;
+
+}
+li {
+	padding-right: 10px;
+	padding-top: -10px;
+
+}
+.home {
+    padding-right: 80px;
+}
+.about {
+     padding-right: 80px;
+}
+li:hover{
+    border-bottom: 3px solid #E5E7EB;
+}
+.column {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+ 	background-color: #1f2937;
+    padding: 20px 0;
+    color: #F9FAF8;
+    height: 400px;
+}
+.what {
+	width: 590px;
+	height: 350px;
+    margin-right: 120px;
+    margin-bottom: 30px;
+}
+.left{
+    padding-left: 120px;
+}
+button {
+    background-color: rgb(56, 130, 246);
+    color: rgb(249, 250, 248);
+    font-weight: 700;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin-left: 120px;
+}
+button:hover{
+    background-color: lightblue;
+    color: rgb(249, 250, 248);
+    font-weight: 700;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin-left: 120px;
+}
+h1 {
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: -50px;
+}
+h3 {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+}
+
+.sSection {
+    padding: 15px 9%;
+    padding: 100px;
+    background: black;
+}
+
+.sSection .box-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.sSection .box-container .box p {
+    margin-left: 3em;
+}
+
+.sSection .box-container .box .js {
+    height: 13em;
+    width: 13em;
+}
+
+.road {
+    background-color: #E5E7EB;
+    text-align: center;
+    height: 145px;
+    margin-top: 40px;
+    padding-top: 100px;
+    padding-left: 260px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+}
+
+.road p {
+    font-size: 35px;
+    font-style: italic;
+    color: #1F2937;
+}
+.road small {
+    font-weight: bold;
+    font-size: 16px;
+    float: right;
+    padding-right: 90px;
+}
+
+.action {
+    background-color:  #3882f6;
+    border-style: none;
+    border-radius: 8px;
+    margin: 50px 100px;
+    display: flex;
+    align-items: center;
+    padding: 40px 60px;
+}
+
+.call {
+    color: white;
+}
+
+.action .btn {
+    border: .5px solid white;
+    border-radius: 7px;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 30px;
+    text-align: center;
+    color: #f9fAf8;
+}
